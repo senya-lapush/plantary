@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lint"
+    android:paddingHorizontal="50dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account_auth"
+
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/forest_green"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/comfortaa_bold"
+        />
+
+    <TextView
+        android:labelFor="@id/et_login_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+
+        android:text="@string/login"
+        android:textColor="@color/forest_green"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/et_login_reg"
+        android:layout_width="match_parent"
+        style="@style/ThemeOverlay.EditText.BlackText"
+        android:autofillHints="username"
+        android:inputType="text"
+        android:layout_marginBottom="26dp" />
+
+    <TextView
+        android:labelFor="@id/et_password_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+
+        android:text="@string/password"
+        android:textColor="@color/forest_green"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/et_password_reg"
+        android:layout_width="match_parent"
+        style="@style/ThemeOverlay.EditText.BlackText"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="26dp" />
+
+    <TextView
+        android:labelFor="@id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+
+        android:text="@string/confirm_password"
+        android:textColor="@color/forest_green"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        style="@style/ThemeOverlay.EditText.BlackText"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="44dp" />
+
+    <Button
+        android:id="@+id/btn_create_account"
+        style="@style/confirm_button"
+        android:layout_width="match_parent"
+        android:text="@string/create_account_auth" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/have_account"
+
+            android:textColor="@color/forest_green"
+            android:textSize="14sp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/tv_signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/sign_in"
+            android:textColor="@color/forest_green"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

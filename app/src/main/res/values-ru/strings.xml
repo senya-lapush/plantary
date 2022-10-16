@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Plantary</string>
+    <string name="login">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="forgot_pass">Забыли пароль?</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="dont_have_account">Нет аккаунта?</string>
+    <string name="have_account">Уже есть аккаунт?</string>
+    <string name="create_account_auth">Создать аккаунт</string>
+    <string name="create_account">Создай сейчас</string>
+    <string name="sign_in">Авторизоваться</string>
+    <string name="my_plants">Мои растения</string>
+    <string name="add_plant">Добавить растение</string>
+    <string name="plant_name">Название растения</string>
+    <string name="plant_type">Тип растения</string>
+    <string name="plant_notes">Заметки</string>
+    <string name="water_days">Полить через ? дней</string>
+    <string name="your_plant">Мое растение</string>
+    <string name="save_plant">Сохранить</string>
+    <string name="add_plant2">Добавить</string>
+    <string name="sensor_notification">Уведомления по датчику</string>
+    <string name="mac_address_device">MAC-адрес устройства</string>
+    <string name="water_time">Время полива</string>
+    <string name="plant_image">Изображение растения</string>
+    <string name="bot_name">Плэнтер</string>
+
+    <string name="humidity_level_main" formatted="true">Влажность: %d%%</string>
+    <plurals name="water_in_days_main">
+        <item quantity="one">Полить через %d день</item>
+        <item quantity="few">Полить через %d дня</item>
+        <item quantity="many">Полить через %d дней</item>
+        <item quantity="other">Полить через %d дней</item>
+    </plurals>
+
+    <plurals name="water_in_hours_main">
+        <item quantity="one">Полить через %d час</item>
+        <item quantity="few">Полить через %d часа</item>
+        <item quantity="many">Полить через %d часов</item>
+        <item quantity="other">Полить через %d часов</item>
+    </plurals>
+</resources>

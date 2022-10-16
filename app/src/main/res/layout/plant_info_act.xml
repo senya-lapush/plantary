@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lint"
+    android:paddingTop="100dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingHorizontal="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_delete_plant"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/recycle_bin" />
+
+            <Button
+                android:id="@+id/btn_notification"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/notification_off"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_plant"
+
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/forest_green"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/comfortaa_bold"
+            />
+
+        <TextView
+            android:labelFor="@id/et_plant_name_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+
+            android:text="@string/plant_name"
+            android:textColor="@color/forest_green"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/et_plant_name_info"
+            android:layout_width="match_parent"
+            style="@style/ThemeOverlay.EditText.BlackText"
+            android:inputType="text"
+            android:layout_marginBottom="26dp"
+            android:autofillHints="My plant" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_water_device_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:fontFamily="@font/montserrat"
+                android:labelFor="@+id/btn_water_device_info"
+                android:text="Уведомления по датчику"
+                android:textColor="@color/forest_green" />
+
+            <CheckBox
+                android:id="@+id/btn_water_device_info"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:buttonTint="@color/forest_green"
+                android:layout_alignParentEnd="true"
+                android:checked="false" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_sensor_info"
+            android:labelFor="@id/et_sensor_address_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+
+            android:text="MAC-адрес устройства"
+            android:textColor="@color/forest_green"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/et_sensor_address_info"
+            android:layout_width="match_parent"
+            style="@style/ThemeOverlay.EditText.BlackText"
+            android:inputType="text"
+            android:layout_marginBottom="26dp" />
+
+        <TextView
+            android:id="@+id/tv_water_days_info"
+            android:labelFor="@id/et_water_days_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+
+            android:text="@string/water_days"
+            android:textColor="@color/forest_green"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/et_water_days_info"
+            android:layout_width="match_parent"
+            style="@style/ThemeOverlay.EditText.BlackText"
+            android:inputType="number"
+            android:layout_marginBottom="26dp"
+            android:autofillHints="3" />
+
+        <TextView
+            android:id="@+id/tv_water_time_info"
+            android:labelFor="@id/et_water_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+
+            android:text="Время полива"
+            android:textColor="@color/forest_green"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TimePicker
+            android:id="@+id/et_water_time_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_marginBottom="26dp" />
+
+        <TextView
+            android:labelFor="@id/et_plant_notes_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+
+            android:text="@string/plant_notes"
+            android:textColor="@color/forest_green"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/et_plant_notes_info"
+            android:layout_width="match_parent"
+            style="@style/ThemeOverlay.EditText.BlackText"
+            android:inputType="text"
+            android:layout_marginBottom="26dp"
+            android:autofillHints="no" />
+
+        <ImageView
+            android:id="@+id/edit_image"
+            android:background="@drawable/add_image"
+            android:scaleType="centerCrop"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:id="@+id/btn_save_plant"
+            android:text="@string/save_plant"
+            android:layout_marginTop="30dp"
+            style="@style/confirm_button"
+            android:layout_width="match_parent"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

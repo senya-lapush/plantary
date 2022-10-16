@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Plantary</string>
+    <string name="login">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="welcome">Welcome</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="create_account_auth">Create Account</string>
+    <string name="create_account">Create one</string>
+    <string name="sign_in">Sign in</string>
+    <string name="my_plants">My Plants</string>
+    <string name="add_plant">Add Plant</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="plant_type">Plant Type</string>
+    <string name="plant_notes">Notes</string>
+    <string name="water_days">Watered in ? days</string>
+    <string name="your_plant">Your Plant</string>
+    <string name="save_plant">Save</string>
+    <string name="add_plant2">Add</string>
+    <string name="sensor_notification">Sensor Notification</string>
+    <string name="mac_address_device">MAC-address of Device</string>
+    <string name="water_time">Water Time</string>
+    <string name="plant_image">Plant Image</string>
+    <string name="bot_name">Planter</string>
+
+    <string name="humidity_level_main" formatted="true">Humidity: %d%%</string>
+    <plurals name="water_in_days_main">
+        <item quantity="zero">Water in %d days</item>
+        <item quantity="one">Water in %d day</item>
+        <item quantity="two">Water in %d days</item>
+        <item quantity="few">Water in %d days</item>
+        <item quantity="many">Water in %d days</item>
+        <item quantity="other">Water in %d days</item>
+    </plurals>
+
+    <plurals name="water_in_hours_main">
+        <item quantity="zero">Water in %d hours</item>
+        <item quantity="one">Water in %d hour</item>
+        <item quantity="two">Water in %d hours</item>
+        <item quantity="few">Water in %d hours</item>
+        <item quantity="many">Water in %d hours</item>
+        <item quantity="other">Water in %d hours</item>
+    </plurals>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/plant_library_img"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image_style"
+        android:clipToOutline="true"
+        android:contentDescription="@string/plant_image" />
+
+    <TextView
+        android:id="@+id/plant_library_name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Opuntia"
+        android:textColor="@color/forest_green"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/plant_library_img"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/plant_library_descr"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/plant_library_img"
+        android:fontFamily="@font/montserrat"
+        android:text="Cactus"
+        android:textColor="@color/forest_green"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/arrow"
+        android:contentDescription="@string/plant_image" />
+
+</RelativeLayout>

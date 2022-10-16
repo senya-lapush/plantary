@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lint"
+    android:paddingTop="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bot_name"
+
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@color/forest_green"
+        android:fontFamily="@font/comfortaa_bold"
+        android:layout_marginBottom="6dp"
+        />
+
+    <ListView
+        android:id="@+id/lv_chat"
+        android:dividerHeight="0dp"
+        android:divider="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_weight="12"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_choice1"
+            style="@style/confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="12dp"/>
+        <Button
+            android:id="@+id/btn_choice2"
+            style="@style/confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="12dp"/>
+        <Button
+            android:id="@+id/btn_choice3"
+            style="@style/confirm_button"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingTop="40dp"
+        android:paddingHorizontal="65dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_panel">
+
+        <Button
+            android:id="@+id/btn_library"
+            android:theme="@style/ThemeOverlay.Button.White"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/library_button" />
+
+        <Button
+            android:id="@+id/my_plants_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/plants_button"
+            android:theme="@style/ThemeOverlay.Button.White" />
+
+        <Button
+            android:id="@+id/bot_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bot_button"/>
+    </RelativeLayout>
+</RelativeLayout>

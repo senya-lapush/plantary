@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="0dp"
+    android:orientation="horizontal"
+    android:background="@color/lint">
+
+    <ImageView
+        android:id="@+id/white_bg"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="24dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plant_item_style"
+        android:contentDescription="@string/plant_image" />
+
+    <ImageView
+        android:id="@+id/plant_img"
+        android:layout_width="96dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image_style"
+        android:clipToOutline="true"
+        android:contentDescription="@string/plant_image" />
+
+    <TextView
+        android:id="@+id/plant_name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Opuntia"
+        android:textColor="@color/forest_green"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/plant_img"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/water_days"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Watered every 7 days"
+        android:textColor="@color/forest_green"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/plant_img"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/btn_plant_info"
+        android:background="@drawable/round_button"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@id/white_bg"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="-24dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/white"
+        android:text="i"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+</RelativeLayout>

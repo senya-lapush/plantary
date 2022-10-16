@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="20dp">
+
+        <Button
+            android:id="@+id/btn_signOut"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/sign_out" />
+
+        <Button
+            android:id="@+id/btn_add_plant_main"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/add_plant"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_plants"
+
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@color/forest_green"
+        android:fontFamily="@font/comfortaa_bold"
+        />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+            <ListView
+                android:id="@+id/plant_list"
+                android:dividerHeight="0dp"
+                android:divider="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingTop="40dp"
+        android:paddingHorizontal="65dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_panel">
+
+        <Button
+            android:id="@+id/btn_library"
+            android:theme="@style/ThemeOverlay.Button.White"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/library_button" />
+
+        <Button
+            android:id="@+id/my_plants_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/plants_button"/>
+
+        <Button
+            android:id="@+id/bot_button"
+            android:theme="@style/ThemeOverlay.Button.White"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bot_button"/>
+    </RelativeLayout>
+
+</RelativeLayout>

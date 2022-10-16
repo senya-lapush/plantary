@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469544321148",
+    "project_id": "plantary-d0321",
+    "storage_bucket": "plantary-d0321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469544321148:android:403f40df9f639cf45f89f9",
+        "android_client_info": {
+          "package_name": "com.example.plantary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469544321148-jr937go4hsptvl9s0oglfb4pdu5gnk11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQWsQQFN3DdJZv41-MFohbiotGfuYKfG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469544321148-jr937go4hsptvl9s0oglfb4pdu5gnk11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
