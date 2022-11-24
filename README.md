@@ -21,3 +21,4 @@ Project is created with:
 * Setting Notifications by time or humidity level of plant soil
 
 ## Screenshots
+<img src="https://user-images.githubusercontent.com/99476262/203851270-ab34d788-0ced-4f55-8ff5-43863702cb3c.png" alt="Registration" width="200"/> <img src="https://user-images.githubusercontent.com/99476262/203851506-a1525036-c49b-4679-8288-71e456b9474b.png" alt="Authentication" width="200"/>
