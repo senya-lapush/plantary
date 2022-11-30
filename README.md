@@ -4,6 +4,8 @@ App for setting notifications to remind users about watering their plants. Notif
 ## Table of Contents
 * [Technologies](#technologies)
 * [Features](#features)
+* [Firestore Database](#firestore-database)
+* [Arduino System](#arduino-system)
 * [Screenshots](#screenshots)
 
 ## Technologies
@@ -19,6 +21,15 @@ Project is created with:
 * Possibility to connect Arduino system to get humidity level of plant soil
 * Recommendations on what plant user should obtain by completing survey
 * Setting Notifications by time or humidity level of plant soil
+
+## Firestore Database
+
+<img src="https://user-images.githubusercontent.com/99476262/204823489-ed38b971-0c8a-4a63-b7f3-27b0bdff656f.png" alt="Firestore_Database" width="600"/>
+
+## Arduino System
+
+<img src="https://user-images.githubusercontent.com/99476262/204823757-ed2bd580-9e91-4928-9bc6-00fe5079dc29.png" alt="Arduino_Nano" width="500"/>
+<img src="https://user-images.githubusercontent.com/99476262/204823778-06584c24-c5f6-43c2-8c80-18e1d28ab3a6.png" alt="Arduino_Uno" width="500"/>
 
 ## Screenshots
 * Registration and Authentication
@@ -40,7 +51,7 @@ Project is created with:
 * Adding Plant
 
 <img src="https://user-images.githubusercontent.com/99476262/204818873-02337574-c535-413c-8622-64228aff7d27.png" alt="Add_Plant" width="200"/> 
-Setting notification by connecting arduino system
+Setting notification by connecting arduino system (using MAC Address of ESP8266)
 <img src="https://user-images.githubusercontent.com/99476262/204818951-9d3a91e0-3c29-4300-81be-d42d8ef2af1a.png" alt="Notification_Sensor" width="200"/> 
 Setting notification by time
 <img src="https://user-images.githubusercontent.com/99476262/204819065-5ec1f7b3-016a-4809-a388-0cadd7ae7ee0.png" alt="Notification_Time" width="200"/>
